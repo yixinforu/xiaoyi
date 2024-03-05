@@ -1,0 +1,178 @@
+{
+  "groups": [
+    {
+      "name": "sms",
+      "type": "com.yixin.xiaoyi.common.config.SmsConfig",
+      "sourceType": "com.yixin.xiaoyi.common.config.SmsConfig"
+    },
+    {
+      "name": "user",
+      "type": "com.yixin.xiaoyi.common.config.UserConfig",
+      "sourceType": "com.yixin.xiaoyi.common.config.UserConfig"
+    },
+    {
+      "name": "xiaoyi",
+      "type": "com.yixin.xiaoyi.common.config.XiaoYiConfig",
+      "sourceType": "com.yixin.xiaoyi.common.config.XiaoYiConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "sms.access-key-id",
+      "type": "java.lang.String",
+      "description": "accessKeyId",
+      "sourceType": "com.yixin.xiaoyi.common.config.SmsConfig"
+    },
+    {
+      "name": "sms.access-key-secret",
+      "type": "java.lang.String",
+      "description": "accessKeySecret",
+      "sourceType": "com.yixin.xiaoyi.common.config.SmsConfig"
+    },
+    {
+      "name": "sms.endpoint",
+      "type": "java.lang.String",
+      "description": "openApi接入点",
+      "sourceType": "com.yixin.xiaoyi.common.config.SmsConfig"
+    },
+    {
+      "name": "sms.max-ip-sms-count",
+      "type": "java.lang.String",
+      "description": "规定时间（一小时）内同一IP最多调用短信次数",
+      "sourceType": "com.yixin.xiaoyi.common.config.SmsConfig"
+    },
+    {
+      "name": "sms.max-sms-count",
+      "type": "java.lang.String",
+      "description": "规定时间（一小时）内同一手机号最多调用短信次数",
+      "sourceType": "com.yixin.xiaoyi.common.config.SmsConfig"
+    },
+    {
+      "name": "sms.sign-name",
+      "type": "java.lang.String",
+      "description": "短信签名",
+      "sourceType": "com.yixin.xiaoyi.common.config.SmsConfig"
+    },
+    {
+      "name": "sms.template-code",
+      "type": "java.lang.String",
+      "description": "短信模板",
+      "sourceType": "com.yixin.xiaoyi.common.config.SmsConfig"
+    },
+    {
+      "name": "sms.template-content",
+      "type": "java.lang.String",
+      "description": "短信模板内容",
+      "sourceType": "com.yixin.xiaoyi.common.config.SmsConfig"
+    },
+    {
+      "name": "user.access-log-expire-time",
+      "type": "java.lang.Integer",
+      "description": "用户缓存访问过期时间 单位：小时",
+      "sourceType": "com.yixin.xiaoyi.common.config.UserConfig"
+    },
+    {
+      "name": "user.base-role-id",
+      "type": "java.lang.Long",
+      "description": "普通角色id",
+      "sourceType": "com.yixin.xiaoyi.common.config.UserConfig"
+    },
+    {
+      "name": "user.lock-time",
+      "type": "java.lang.Integer",
+      "description": "登录失败锁定时间 单位：分钟",
+      "sourceType": "com.yixin.xiaoyi.common.config.UserConfig"
+    },
+    {
+      "name": "user.max-retry-count",
+      "type": "java.lang.Integer",
+      "description": "最大允许登录失败次数",
+      "sourceType": "com.yixin.xiaoyi.common.config.UserConfig"
+    },
+    {
+      "name": "user.phone-secret",
+      "type": "java.lang.String",
+      "description": "手机密钥",
+      "sourceType": "com.yixin.xiaoyi.common.config.UserConfig"
+    },
+    {
+      "name": "user.vip-role-id",
+      "type": "java.lang.Long",
+      "description": "vip id",
+      "sourceType": "com.yixin.xiaoyi.common.config.UserConfig"
+    },
+    {
+      "name": "xiaoyi.address-enabled",
+      "type": "java.lang.Boolean",
+      "description": "获取地址开关",
+      "sourceType": "com.yixin.xiaoyi.common.config.XiaoYiConfig"
+    },
+    {
+      "name": "xiaoyi.cache-lazy",
+      "type": "java.lang.Boolean",
+      "description": "缓存懒加载",
+      "sourceType": "com.yixin.xiaoyi.common.config.XiaoYiConfig"
+    },
+    {
+      "name": "xiaoyi.copyright-year",
+      "type": "java.lang.String",
+      "description": "版权年份",
+      "sourceType": "com.yixin.xiaoyi.common.config.XiaoYiConfig"
+    },
+    {
+      "name": "xiaoyi.lib-dir",
+      "type": "java.lang.String",
+      "description": "资源路径",
+      "sourceType": "com.yixin.xiaoyi.common.config.XiaoYiConfig"
+    },
+    {
+      "name": "xiaoyi.link",
+      "type": "java.lang.String",
+      "description": "地址",
+      "sourceType": "com.yixin.xiaoyi.common.config.XiaoYiConfig"
+    },
+    {
+      "name": "xiaoyi.material-path",
+      "type": "java.lang.String",
+      "description": "上传路径",
+      "sourceType": "com.yixin.xiaoyi.common.config.XiaoYiConfig"
+    },
+    {
+      "name": "xiaoyi.material-url",
+      "type": "java.lang.String",
+      "description": "本项目访问地址",
+      "sourceType": "com.yixin.xiaoyi.common.config.XiaoYiConfig"
+    },
+    {
+      "name": "xiaoyi.name",
+      "type": "java.lang.String",
+      "description": "项目名称",
+      "sourceType": "com.yixin.xiaoyi.common.config.XiaoYiConfig"
+    },
+    {
+      "name": "xiaoyi.sign-secret",
+      "type": "java.lang.String",
+      "description": "签名密钥",
+      "sourceType": "com.yixin.xiaoyi.common.config.XiaoYiConfig"
+    },
+    {
+      "name": "xiaoyi.sm4-key",
+      "type": "java.lang.String",
+      "description": "sm4 秘钥",
+      "sourceType": "com.yixin.xiaoyi.common.config.XiaoYiConfig"
+    },
+    {
+      "name": "xiaoyi.temp-dir",
+      "type": "java.lang.String",
+      "description": "临时目录",
+      "sourceType": "com.yixin.xiaoyi.common.config.XiaoYiConfig"
+    },
+    {
+      "name": "xiaoyi.version",
+      "type": "java.lang.String",
+      "description": "版本",
+      "sourceType": "com.yixin.xiaoyi.common.config.XiaoYiConfig"
+    }
+  ],
+  "hints": []
+}

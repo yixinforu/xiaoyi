@@ -1,0 +1,35 @@
+
+`
+java:S1192I"JDefine a constant instead of duplicating this literal "create_by" 4 times.(ÄŞ–ò
+b
+java:S1192J"LDefine a constant instead of duplicating this literal "update_time" 4 times.(äàâì
+`
+java:S1192I"JDefine a constant instead of duplicating this literal "update_by" 4 times.(ÄŞ–ò
+_
+java:S1192I"IDefine a constant instead of duplicating this literal "del_flag" 4 times.(ÄŞ–ò
+b
+java:S1192I"LDefine a constant instead of duplicating this literal "create_time" 4 times.(ÄŞ–ò
+^
+java:S1192J"HDefine a constant instead of duplicating this literal "version" 4 times.(äàâì
+^
+java:S1214"CMove constants defined in this interfaces to another class or enum.(¤ıëĞÿÿÿÿÿ
+O
+java:S23864"9Move "COLUMNTYPE_STR" to a class and lower its visibility(ê€ƒÅ
+O
+java:S23869":Move "COLUMNTYPE_TEXT" to a class and lower its visibility(á‹:
+U
+java:S2386>":Move "COLUMNTYPE_TIME" to a class and lower its visibility(ªç¥­ıÿÿÿÿ
+R
+java:S2386C"<Move "COLUMNTYPE_NUMBER" to a class and lower its visibility(…ÿÄã
+S
+java:S2386I"=Move "COLUMNNAME_NOT_ADD" to a class and lower its visibility(ÄŞ–ò
+Y
+java:S2386O">Move "COLUMNNAME_NOT_EDIT" to a class and lower its visibility(´ùÃÀıÿÿÿÿ
+Y
+java:S2386U">Move "COLUMNNAME_NOT_LIST" to a class and lower its visibility(£İñ’ıÿÿÿÿ
+U
+java:S2386["?Move "COLUMNNAME_NOT_QUERY" to a class and lower its visibility(ú¯’á
+L
+java:S2386a"6Move "BASE_ENTITY" to a class and lower its visibility(Ìøœ
+L
+java:S2386f"6Move "TREE_ENTITY" to a class and lower its visibility(şÌÑ»

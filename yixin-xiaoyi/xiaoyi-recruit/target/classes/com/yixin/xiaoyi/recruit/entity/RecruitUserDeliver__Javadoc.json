@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/8/7 23:01\n","fields":[{"name":"id","doc":" 用户-招聘关联表\n"},{"name":"userId","doc":" 用户id\n"},{"name":"recruitId","doc":" 招聘id\n"}],"enumConstants":[],"methods":[],"constructors":[]}

@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/8/20 17:12\n","fields":[],"enumConstants":[],"methods":[{"name":"selectRolePermissionByUserId","paramTypes":["java.lang.Long"],"doc":" 获取未过期的角色\n @param userId\n @return\n"}],"constructors":[]}

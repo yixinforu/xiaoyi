@@ -1,0 +1,33 @@
+
+`	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(Ä­ÜÙÿÿÿÿÿ
+Z	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(÷’¦
+[	java:S112N"FDefine and throw a dedicated exception instead of using a generic one.(Ûî„è
+a	java:S112Ì"FDefine and throw a dedicated exception instead of using a generic one.(‰¯ñôûÿÿÿÿ
+\	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ê¾Â«
+\	java:S112ó"FDefine and throw a dedicated exception instead of using a generic one.(œ˜­Ô
+b
+java:S1192†"KDefine a constant instead of duplicating this literal "] invalid." 3 times.(îÿŞ‡
+‡
+java:S1130'"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Ä­ÜÙÿÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(“•Ìˆşÿÿÿÿ
+
+java:S11306"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(÷’¦
+t
+java:S2142h"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾
+Q	java:S125Z"<This block of commented-out lines of code should be removed.(ĞŒ¯
+E
+java:S2093S"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+i
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Ê¾Â«
+2
+java:S3626Ú"Remove this redundant jump.(ûÁİ…
+2
+java:S3626ß"Remove this redundant jump.(ûÁİ…
+U
+java:S4719Ä"9Replace charset name argument with StandardCharsets.UTF_8(‚ŒéÏıÿÿÿÿ
+U
+java:S4719Ğ"9Replace charset name argument with StandardCharsets.UTF_8(›©˜ãúÿÿÿÿ
+F
+java:S2093®"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+ƒ
+java:S1130ó"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(œ˜­Ô

@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/8/20 12:42\n","fields":[],"enumConstants":[],"methods":[{"name":"insert","paramTypes":["com.yixin.xiaoyi.user.entity.XyLogininfor"],"doc":" 新增\n @param logininfor\n @return\n"}],"constructors":[]}

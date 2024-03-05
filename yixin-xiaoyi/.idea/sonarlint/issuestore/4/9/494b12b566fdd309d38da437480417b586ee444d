@@ -1,0 +1,13 @@
+
+\
+java:S1192J"FDefine a constant instead of duplicating this literal "<br/>" 4 times.(¥ãø©
+ó
+java:S1186X"ÄAdd a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Òî◊“
+^
+java:S3252#"IUse static access with "cn.hutool.extra.spring.SpringUtil" for "getBean".(¸Ú‰>
+A
+java:S11687"+Return an empty collection instead of null.(•πÔç
+A
+java:S1168<"+Return an empty collection instead of null.(•πÔç
+e
+java:S3252D"OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isNotBlank".(«¥∏Â

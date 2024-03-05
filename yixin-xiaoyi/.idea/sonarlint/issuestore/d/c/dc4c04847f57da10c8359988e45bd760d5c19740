@@ -1,0 +1,13 @@
+
+u
+java:S14883"_Immediately return this expression instead of assigning it to the temporary variable "jobInfo".(çÒ»÷
+ƒ
+java:S1488£"`Immediately return this expression instead of assigning it to the temporary variable "recruits".(ğ£úûÿÿÿÿ8ğ‹±ëà1
+J
+java:S5411i"(Use a primitive boolean expression here.(…ö¯Èüÿÿÿÿ8ğ‹±ëà1
+N
+java:S1602h",Remove useless curly braces around statement(–œò¨ıÿÿÿÿ8ş‹±ëà1
+j
+java:S1128"ORemove this unused import 'com.yixin.xiaoyi.recruit.dao.mapper.NewCountMapper'.(´ƒÒôüÿÿÿÿ
+E
+java:S1128"/Remove this unused import 'java.util.Calendar'.(ÿÛö´

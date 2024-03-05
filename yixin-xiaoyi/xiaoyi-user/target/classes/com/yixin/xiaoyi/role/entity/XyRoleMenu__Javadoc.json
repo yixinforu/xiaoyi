@@ -1,0 +1,1 @@
+{"doc":" 角色和菜单关联 xy_role_menu\n\n @author admin\n","fields":[{"name":"roleId","doc":" 角色ID\n"},{"name":"menuId","doc":" 菜单ID\n"}],"enumConstants":[],"methods":[],"constructors":[]}

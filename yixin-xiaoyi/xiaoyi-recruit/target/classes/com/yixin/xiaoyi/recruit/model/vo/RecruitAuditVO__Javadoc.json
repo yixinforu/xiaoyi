@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/11/30 17:30\n","fields":[{"name":"recruitIds","doc":" 招聘id\n"},{"name":"auditFlag","doc":" 审核状态\n"}],"enumConstants":[],"methods":[],"constructors":[]}

@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/8/17 22:13\n","fields":[],"enumConstants":[],"methods":[{"name":"insertBatch","paramTypes":["java.util.Collection"],"doc":" 批量插入\n @param userOnlineLogs\n @return\n"},{"name":"findOnlineLogsByLastLoginTime","paramTypes":["java.util.Date"],"doc":" 获取最近登录的用户数据\n @param lastLoginTime\n @return\n"}],"constructors":[]}

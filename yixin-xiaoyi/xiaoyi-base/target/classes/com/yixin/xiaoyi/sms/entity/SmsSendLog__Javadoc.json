@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/10/6 21:27\n","fields":[{"name":"id","doc":" 用户ID\n"},{"name":"smsContent","doc":" 短信内容\n"},{"name":"encryptedPhone","doc":" 加密手机号\n"},{"name":"maskPhone","doc":" 脱敏手机号\n"},{"name":"bizId","doc":" 回执id\n"},{"name":"resultCode","doc":" 返回码\n"},{"name":"resultMsg","doc":" 描述\n"}],"enumConstants":[],"methods":[],"constructors":[]}

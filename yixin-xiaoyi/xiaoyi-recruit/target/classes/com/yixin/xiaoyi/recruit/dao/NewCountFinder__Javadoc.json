@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/11/10 13:19\n","fields":[],"enumConstants":[],"methods":[{"name":"updateCountById","paramTypes":["com.yixin.xiaoyi.recruit.entity.NewCount"],"doc":" 更新计数\n @param newCount\n @return\n"},{"name":"selectNewCount","paramTypes":[],"doc":" 获取当前计数\n @return\n"}],"constructors":[]}

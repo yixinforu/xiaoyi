@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/9/24 11:13\n","fields":[{"name":"id","doc":" 用户ID\n"},{"name":"inviterUserId","doc":" 邀请人\n"},{"name":"inviteeUserId","doc":" 被邀请人\n"},{"name":"inviteCode","doc":" 邀请码\n"},{"name":"exchangedVip","doc":" 是否兑换过VIP 0-未兑换 1-已兑换\n"}],"enumConstants":[],"methods":[],"constructors":[]}

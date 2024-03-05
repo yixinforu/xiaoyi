@@ -1,0 +1,38 @@
+
+t
+java:S2293="YReplace the type specification in this constructor call with the diamond operator ("<>").(­‡ğîüÿÿÿÿ
+i
+java:S1128"SRemove this unused import 'com.yixin.xiaoyi.common.core.domain.monitor.server.Cpu'.(áå
+n
+java:S1128"SRemove this unused import 'com.yixin.xiaoyi.common.core.domain.monitor.server.Jvm'.(Ä­ØÓÿÿÿÿÿ
+n
+java:S1128"SRemove this unused import 'com.yixin.xiaoyi.common.core.domain.monitor.server.Mem'.(ÌòŸüÿÿÿÿ
+i
+java:S1128"SRemove this unused import 'com.yixin.xiaoyi.common.core.domain.monitor.server.Sys'.(œ’¦Ï
+r
+java:S1128"WRemove this unused import 'com.yixin.xiaoyi.common.core.domain.monitor.server.SysFile'.(ú¨’—ıÿÿÿÿ
+[
+java:S1128	"@Remove this unused import 'com.yixin.xiaoyi.common.utils.Arith'.(–˜Ãæøÿÿÿÿ
+`
+java:S1128
+"ERemove this unused import 'com.yixin.xiaoyi.common.utils.ip.IpUtils'.(¡à¼µüÿÿÿÿ
+B
+java:S1128",Remove this unused import 'oshi.SystemInfo'.(Ş€âñ
+V
+java:S1128";Remove this unused import 'oshi.hardware.CentralProcessor'.(”åí¾ıÿÿÿÿ
+M
+java:S1128"7Remove this unused import 'oshi.hardware.GlobalMemory'.(‡³‘×
+X
+java:S1128"CRemove this unused import 'oshi.hardware.HardwareAbstractionLayer'.(°Ú‹h
+M
+java:S1128"8Remove this unused import 'oshi.software.os.FileSystem'.(–­ø
+N
+java:S1128"9Remove this unused import 'oshi.software.os.OSFileStore'.( îø
+S
+java:S1128"=Remove this unused import 'oshi.software.os.OperatingSystem'.(ì«¼ÿ
+A
+java:S1128"+Remove this unused import 'oshi.util.Util'.(ÇÇ²Ì
+U
+java:S1128":Remove this unused import 'java.net.UnknownHostException'.(Ú·¬˜úÿÿÿÿ
+G
+java:S1128"1Remove this unused import 'java.util.Properties'.(¬µ²

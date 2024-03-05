@@ -1,0 +1,1 @@
+{"doc":" 角色\n\n @author admin\n","fields":[{"name":"roleId","doc":" 角色ID\n"},{"name":"roleName","doc":" 角色名称\n"},{"name":"roleKey","doc":" 角色权限\n"}],"enumConstants":[],"methods":[],"constructors":[]}

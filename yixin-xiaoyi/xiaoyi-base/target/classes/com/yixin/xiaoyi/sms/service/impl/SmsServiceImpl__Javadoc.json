@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/10/6 22:18\n","fields":[],"enumConstants":[],"methods":[{"name":"asyncSendSmsMessage","paramTypes":["java.lang.String","java.lang.String"],"doc":" 短信发送\n @param phone 手机号\n @param code  验证码\n @return\n"},{"name":"createClient","paramTypes":[],"doc":" 创建Client对象\n @return\n"}],"constructors":[]}

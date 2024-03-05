@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/9/24 14:05\n","fields":[],"enumConstants":[],"methods":[{"name":"generateInviteCode","paramTypes":[],"doc":" 获取邀请码\n @return\n"},{"name":"selectCurrentUserInviteRecords","paramTypes":[],"doc":" 获取当前用户的邀请记录\n @return\n"},{"name":"empowerByInviteRecords","paramTypes":[],"doc":" 兑换vip （在原来基础进行叠加）\n @return\n"}],"constructors":[]}

@@ -1,0 +1,1 @@
+{"doc":" JVM相关信息\n\n @author ruoyi\n","fields":[{"name":"total","doc":" 当前JVM占用的内存总数(M)\n"},{"name":"max","doc":" JVM最大可用内存总数(M)\n"},{"name":"free","doc":" JVM空闲内存(M)\n"},{"name":"version","doc":" JDK版本\n"},{"name":"home","doc":" JDK路径\n"}],"enumConstants":[],"methods":[],"constructors":[]}

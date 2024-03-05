@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/9/1 22:11\n","fields":[{"name":"roleId","doc":" 角色Id\n"},{"name":"roleName","doc":" 角色名称\n"},{"name":"roleKey","doc":" 角色权限\n"},{"name":"expireTime","doc":" 过期时间\n"},{"name":"menuPermission","doc":" 角色菜单权限\n"}],"enumConstants":[],"methods":[],"constructors":[]}

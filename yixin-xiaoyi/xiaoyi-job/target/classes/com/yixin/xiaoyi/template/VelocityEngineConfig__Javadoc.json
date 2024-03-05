@@ -1,0 +1,1 @@
+{"doc":" Velocity配置\n\n @author wangyi\n","fields":[],"enumConstants":[],"methods":[{"name":"veEngineer","paramTypes":[],"doc":" 初始化并取得Velocity引擎\n\n @return\n"}],"constructors":[]}

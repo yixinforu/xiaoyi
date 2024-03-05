@@ -1,0 +1,1 @@
+{"doc":"","fields":[],"enumConstants":[],"methods":[{"name":"createClient","paramTypes":["java.lang.String","java.lang.String"],"doc":" 使用AK&SK初始化账号Client\n @param accessKeyId\n @param accessKeySecret\n @return Client\n @throws Exception\n"}],"constructors":[]}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/xiaoyi-base/xiaoyi-base.iml" filepath="$PROJECT_DIR$/xiaoyi-base/xiaoyi-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaoyi-client/xiaoyi-client.iml" filepath="$PROJECT_DIR$/xiaoyi-client/xiaoyi-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaoyi-common/xiaoyi-common.iml" filepath="$PROJECT_DIR$/xiaoyi-common/xiaoyi-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaoyi-framework/xiaoyi-framework.iml" filepath="$PROJECT_DIR$/xiaoyi-framework/xiaoyi-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaoyi-job/xiaoyi-job.iml" filepath="$PROJECT_DIR$/xiaoyi-job/xiaoyi-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaoyi-recruit/xiaoyi-recruit.iml" filepath="$PROJECT_DIR$/xiaoyi-recruit/xiaoyi-recruit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaoyi-server/xiaoyi-server.iml" filepath="$PROJECT_DIR$/xiaoyi-server/xiaoyi-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaoyi-system/xiaoyi-system.iml" filepath="$PROJECT_DIR$/xiaoyi-system/xiaoyi-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaoyi-user/xiaoyi-user.iml" filepath="$PROJECT_DIR$/xiaoyi-user/xiaoyi-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yixin-xiaoyi.iml" filepath="$PROJECT_DIR$/yixin-xiaoyi.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/9/24 11:19\n","fields":[],"enumConstants":[],"methods":[{"name":"generateInviteCode","paramTypes":[],"doc":" 获取当前用户的专属邀请链接\n @return\n"}],"constructors":[]}

@@ -1,0 +1,1 @@
+{"doc":" 同屏状态常量\n\n @author admin\n","fields":[{"name":"WAITING","doc":" 待用户接起\n"},{"name":"ANSWER","doc":" 用户接起同屏\n"},{"name":"CLIENT_CLOSE","doc":" 用户关闭同屏\n"},{"name":"WORKER_CLOSE","doc":" 营销员关闭同屏\n"},{"name":"CONFIRM","doc":" 用户确认温馨提示\n"}],"enumConstants":[],"methods":[],"constructors":[]}

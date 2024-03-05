@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/8/12 18:38\n","fields":[{"name":"company","doc":" 公司名称\n"},{"name":"industry","doc":" 岗位\n"},{"name":"location","doc":" 地点\n"},{"name":"channel","doc":" 渠道\n"},{"name":"nature","doc":" 性质\n"}],"enumConstants":[],"methods":[],"constructors":[]}

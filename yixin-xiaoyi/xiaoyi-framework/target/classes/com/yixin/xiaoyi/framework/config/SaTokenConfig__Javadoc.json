@@ -1,0 +1,1 @@
+{"doc":" sa-token 配置\n\n @author admin\n","fields":[],"enumConstants":[],"methods":[{"name":"addInterceptors","paramTypes":["org.springframework.web.servlet.config.annotation.InterceptorRegistry"],"doc":" 注册sa-token的拦截器\n"}],"constructors":[]}

@@ -1,0 +1,63 @@
+{
+  "groups": [
+    {
+      "name": "xxl.job",
+      "type": "com.yixin.xiaoyi.job.config.properties.XxlJobProperties",
+      "sourceType": "com.yixin.xiaoyi.job.config.properties.XxlJobProperties"
+    },
+    {
+      "name": "xxl.job.executor",
+      "type": "com.yixin.xiaoyi.job.config.properties.XxlJobProperties$Executor",
+      "sourceType": "com.yixin.xiaoyi.job.config.properties.XxlJobProperties",
+      "sourceMethod": "getExecutor()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "xxl.job.access-token",
+      "type": "java.lang.String",
+      "sourceType": "com.yixin.xiaoyi.job.config.properties.XxlJobProperties"
+    },
+    {
+      "name": "xxl.job.admin-addresses",
+      "type": "java.lang.String",
+      "sourceType": "com.yixin.xiaoyi.job.config.properties.XxlJobProperties"
+    },
+    {
+      "name": "xxl.job.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.yixin.xiaoyi.job.config.properties.XxlJobProperties"
+    },
+    {
+      "name": "xxl.job.executor.address",
+      "type": "java.lang.String",
+      "sourceType": "com.yixin.xiaoyi.job.config.properties.XxlJobProperties$Executor"
+    },
+    {
+      "name": "xxl.job.executor.appname",
+      "type": "java.lang.String",
+      "sourceType": "com.yixin.xiaoyi.job.config.properties.XxlJobProperties$Executor"
+    },
+    {
+      "name": "xxl.job.executor.ip",
+      "type": "java.lang.String",
+      "sourceType": "com.yixin.xiaoyi.job.config.properties.XxlJobProperties$Executor"
+    },
+    {
+      "name": "xxl.job.executor.log-path",
+      "type": "java.lang.String",
+      "sourceType": "com.yixin.xiaoyi.job.config.properties.XxlJobProperties$Executor"
+    },
+    {
+      "name": "xxl.job.executor.log-retention-days",
+      "type": "java.lang.Integer",
+      "sourceType": "com.yixin.xiaoyi.job.config.properties.XxlJobProperties$Executor"
+    },
+    {
+      "name": "xxl.job.executor.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.yixin.xiaoyi.job.config.properties.XxlJobProperties$Executor"
+    }
+  ],
+  "hints": []
+}

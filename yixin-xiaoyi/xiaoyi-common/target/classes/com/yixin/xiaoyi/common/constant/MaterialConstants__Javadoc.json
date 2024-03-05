@@ -1,0 +1,1 @@
+{"doc":" MaterialTypeConstants\n\n @author lxc\n @version 1.0\n @description 素材相关\n @date 2023/5/8 13:45\n","fields":[{"name":"ENABLE","doc":" 启用\n"},{"name":"DISABLE","doc":" 禁用\n"},{"name":"TYPE_FOLDER","doc":" 文件夹类型\n"},{"name":"TYPE_MATERIAL","doc":" 素材类型\n"},{"name":"WEB","doc":" web类型\n"},{"name":"FILE","doc":" 文件类型\n"}],"enumConstants":[],"methods":[],"constructors":[]}

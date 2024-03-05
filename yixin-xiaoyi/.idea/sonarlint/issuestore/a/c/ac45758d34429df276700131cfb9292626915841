@@ -1,0 +1,15 @@
+
+l	java:S117ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïô›ÿÿÿÿÿ
+D
+java:S5411"(Use a primitive boolean expression here.(Íéòöøÿÿÿÿ
+>	java:S108g")Either remove or fill this block of code.(ú¿³±
+g
+java:S3252p"LUse static access with "org.apache.commons.lang3.StringUtils" for "isBlank".(¹çôµýÿÿÿÿ
+m
+java:S3252"RUse static access with "org.apache.commons.lang3.StringUtils" for "defaultString".(ßî‚ ùÿÿÿÿ
+4
+java:S2119¥"Save and re-use this "Random".(¼ÝÅf
+e
+java:S3252Í"OUse static access with "org.apache.commons.lang3.StringUtils" for "isNotBlank".(ë§û(
+l
+java:S4276ô"URefactor this code to use the more specialised Functional Interface 'BooleanSupplier'(„È‘¨

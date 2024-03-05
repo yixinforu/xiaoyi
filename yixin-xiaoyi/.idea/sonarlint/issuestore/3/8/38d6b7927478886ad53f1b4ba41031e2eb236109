@@ -1,0 +1,25 @@
+
+|
+java:S1488="aImmediately return this expression instead of assigning it to the temporary variable "signature".(¬¸¤§úÿÿÿÿ
+W
+java:S1126,"AReplace this if-then-else statement by a single return statement.(¦‘˜®
+T
+java:S1128"9Remove this unused import 'cn.dev33.satoken.stp.StpUtil'.(³¡åÒÿÿÿÿÿ
+a
+java:S1128"FRemove this unused import 'com.yixin.xiaoyi.common.config.UserConfig'.(ççßùúÿÿÿÿ
+g
+java:S1128"LRemove this unused import 'com.yixin.xiaoyi.common.constant.CacheConstants'.(¦€†±ÿÿÿÿÿ
+]
+java:S1128"GRemove this unused import 'com.yixin.xiaoyi.common.helper.LoginHelper'.(¡¾åè
+b
+java:S1128"GRemove this unused import 'com.yixin.xiaoyi.common.utils.ServletUtils'.(›‰–Çýÿÿÿÿ
+a
+java:S1128	"KRemove this unused import 'com.yixin.xiaoyi.common.utils.redis.RedisUtils'.(“ô«ë
+\
+java:S1128"GRemove this unused import 'com.yixin.xiaoyi.user.entity.UserOnlineLog'.(—·á`
+K
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ
+J
+java:S1128"/Remove this unused import 'java.time.Duration'.(ëá¯‰üÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ

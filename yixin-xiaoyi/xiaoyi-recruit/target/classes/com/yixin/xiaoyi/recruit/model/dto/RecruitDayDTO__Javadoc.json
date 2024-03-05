@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/9/25 11:34\n","fields":[{"name":"newTotalCount","doc":" 新增总数\n"},{"name":"newCampusCount","doc":" 新增校招数\n"},{"name":"newPracticeCount","doc":" 新增实习数\n"},{"name":"updateTime","doc":" 更新时间\n"}],"enumConstants":[],"methods":[],"constructors":[]}

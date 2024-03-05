@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/9/3 11:48\n","fields":[{"name":"currentCount","doc":" 当前总量\n"},{"name":"todayAddCount","doc":" 今日新增\n"}],"enumConstants":[],"methods":[],"constructors":[]}

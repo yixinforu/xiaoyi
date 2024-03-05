@@ -1,0 +1,12 @@
+
+`	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(×âéòøÿÿÿÿ
+`
+java:S1124 "EReorder the modifiers to comply with the Java Language Specification.(ÔŒÎÇùÿÿÿÿ
+‡
+java:S11307"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(×âéòøÿÿÿÿ
+k
+java:S3252F"PUse static access with "org.apache.commons.lang3.StringUtils" for "removeStart".(´Š’øşÿÿÿÿ
+k
+java:S3252G"UUse static access with "org.apache.commons.lang3.StringUtils" for "substringBetween".(„‰‡°
+d
+java:S3252¦"MUse static access with "org.apache.commons.lang3.StringUtils" for "contains".(³¯§

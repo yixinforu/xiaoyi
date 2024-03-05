@@ -1,0 +1,13 @@
+
+Q
+java:S1117:";Rename "pageNum" which hides the field declared at line 35.(ÛŒñ
+R
+java:S1117;"<Rename "pageSize" which hides the field declared at line 30.(ê¼ìË
+b
+java:S3252Q"LUse static access with "org.apache.commons.lang3.StringUtils" for "isBlank".(ò£Õ£
+b
+java:S3252Q"LUse static access with "org.apache.commons.lang3.StringUtils" for "isBlank".(ò£Õ£
+A
+java:S1168R"+Return an empty collection instead of null.(¥¹ï
+k
+java:S3252X"PUse static access with "org.apache.commons.lang3.StringUtils" for "replaceEach".(Ô–½×ùÿÿÿÿ

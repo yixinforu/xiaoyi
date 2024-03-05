@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/9/3 11:41\n","fields":[{"name":"todayIpCount","doc":" 今日IP访问数\n"},{"name":"currentActiveIpCount","doc":" 当前活跃IP数\n"},{"name":"userDataCountDTO","doc":" 用户数据\n"},{"name":"vipDataCountDTO","doc":" VIP用户数据\n"}],"enumConstants":[],"methods":[],"constructors":[]}

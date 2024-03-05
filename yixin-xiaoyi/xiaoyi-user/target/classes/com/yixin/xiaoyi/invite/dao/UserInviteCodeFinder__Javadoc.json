@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/9/24 11:26\n","fields":[],"enumConstants":[],"methods":[{"name":"selectUserInviteCodeByUserId","paramTypes":["java.lang.Long"],"doc":" 通过用户编号获取记录\n @param userId\n @return\n"},{"name":"selectUserInviteCodeByInviteCode","paramTypes":["java.lang.String"],"doc":" 通过邀请码获取记录\n @param inviteCode\n @return\n"}],"constructors":[]}

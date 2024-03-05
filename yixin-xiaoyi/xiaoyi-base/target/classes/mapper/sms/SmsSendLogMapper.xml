@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yixin.xiaoyi.sms.dao.mapper.SmsSendLogMapper">
+
+    <resultMap type="SmsSendLog" id="SmsSendLogResult">
+        <id property="id" column="id"/>
+        <result property="smsContent" column="sms_content"/>
+        <result property="encryptedPhone" column="encrypted_phone"/>
+        <result property="maskPhone" column="mask_phone"/>
+        <result property="bizId" column="biz_id"/>
+        <result property="resultCode" column="result_code"/>
+        <result property="resultMsg" column="result_msg"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+</mapper>

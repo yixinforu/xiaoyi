@@ -1,0 +1,17 @@
+
+}
+java:S1488–"aImmediately return this expression instead of assigning it to the temporary variable "signature".(¬¸¤§úÿÿÿÿ
+‹
+java:S1488"oImmediately return this expression instead of assigning it to the temporary variable "userRoleMenuPermissions".(‹ÍÊşÿÿÿÿ
+R
+java:S3655>"7Call "Optional#isPresent()" before accessing the value.(Ó¼ŸÜıÿÿÿÿ
+7
+java:S1170/"!Make this final field static too.(ôğû
+l
+java:S2159T"VRemove this call to "equals"; comparisons between unrelated types always return false.(÷˜Å
+d
+java:S3252X"OUse static access with "cn.hutool.extra.servlet.ServletUtil" for "getClientIP".(Ü»®]
+l
+java:S2159Z"VRemove this call to "equals"; comparisons between unrelated types always return false.(Ëÿ¬»
+4
+java:S2119„"Save and re-use this "Random".(¼İÅf

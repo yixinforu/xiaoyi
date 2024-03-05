@@ -1,0 +1,1 @@
+{"doc":" 服务器相关信息\n\n @author ruoyi\n","fields":[{"name":"cpu","doc":" CPU相关信息\n"},{"name":"mem","doc":" 內存相关信息\n"},{"name":"jvm","doc":" JVM相关信息\n"},{"name":"sys","doc":" 服务器相关信息\n"},{"name":"sysFiles","doc":" 磁盘相关信息\n"}],"enumConstants":[],"methods":[],"constructors":[]}

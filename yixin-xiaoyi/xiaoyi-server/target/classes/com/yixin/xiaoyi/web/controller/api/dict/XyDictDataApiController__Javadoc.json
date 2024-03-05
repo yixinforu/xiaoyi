@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/9/20 14:23\n","fields":[],"enumConstants":[],"methods":[{"name":"dictType","paramTypes":["java.lang.String"],"doc":" 根据字典类型查询字典数据信息\n\n @param dictType 字典类型\n"}],"constructors":[]}

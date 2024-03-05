@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/8/28 23:30\n","fields":[{"name":"userId","doc":" 用户编号\n"},{"name":"vipDays","doc":"-1:永久 0：无\n 授权期限\n"}],"enumConstants":[],"methods":[],"constructors":[]}

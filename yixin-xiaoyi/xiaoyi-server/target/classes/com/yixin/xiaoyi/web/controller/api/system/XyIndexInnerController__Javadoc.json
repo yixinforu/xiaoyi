@@ -1,0 +1,1 @@
+{"doc":" 首页\n\n @author admin\n","fields":[{"name":"xiaoYiConfig","doc":" 系统基础配置\n"}],"enumConstants":[],"methods":[{"name":"index","paramTypes":[],"doc":" 访问首页，提示语\n"}],"constructors":[]}

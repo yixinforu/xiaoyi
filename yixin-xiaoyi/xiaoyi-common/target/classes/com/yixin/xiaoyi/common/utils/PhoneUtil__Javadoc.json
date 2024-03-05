@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/8/29 11:08\n","fields":[],"enumConstants":[],"methods":[{"name":"verifyPhone","paramTypes":["java.lang.String"],"doc":" @param phone 字符串类型的手机号\n 传入手机号,判断后返回\n true为手机号,false相反\n "}],"constructors":[]}

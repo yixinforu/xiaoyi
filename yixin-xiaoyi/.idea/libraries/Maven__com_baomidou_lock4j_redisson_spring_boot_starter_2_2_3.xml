@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.baomidou:lock4j-redisson-spring-boot-starter:2.2.3">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/lock4j-redisson-spring-boot-starter/2.2.3/lock4j-redisson-spring-boot-starter-2.2.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/lock4j-redisson-spring-boot-starter/2.2.3/lock4j-redisson-spring-boot-starter-2.2.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/lock4j-redisson-spring-boot-starter/2.2.3/lock4j-redisson-spring-boot-starter-2.2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

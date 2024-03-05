@@ -1,0 +1,17 @@
+
+^
+java:S1192%"HDefine a constant instead of duplicating this literal "user_id" 3 times.(Ú°ê¤
+f
+java:S1192("KDefine a constant instead of duplicating this literal "recruit_id" 3 times.(™×ÿıÿÿÿÿ
+G
+java:S3599$",Use another way to initialize this instance.(äÁîèÿÿÿÿÿ
+t
+java:S1171$"YMove the contents of this initializer to a standard constructor or to field initializers.(äÁîèÿÿÿÿÿ
+A
+java:S35997",Use another way to initialize this instance.(·èñ*
+t
+java:S11718"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
+A
+java:S3599a",Use another way to initialize this instance.(·èñ*
+t
+java:S1171b"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ

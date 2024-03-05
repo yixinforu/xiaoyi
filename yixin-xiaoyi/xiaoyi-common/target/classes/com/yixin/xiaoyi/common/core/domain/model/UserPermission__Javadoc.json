@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/9/1 22:08\n","fields":[{"name":"userId","doc":" 用户编号\n"},{"name":"userRoleMenuPermissions","doc":" 权限信息\n"}],"enumConstants":[],"methods":[],"constructors":[]}

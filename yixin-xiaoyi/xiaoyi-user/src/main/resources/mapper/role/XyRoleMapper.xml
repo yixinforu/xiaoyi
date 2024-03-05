@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yixin.xiaoyi.role.dao.mapper.XyRoleMapper">
+
+    <resultMap type="XyRole" id="XyRoleResult">
+        <id property="roleId" column="role_id"/>
+        <result property="roleName" column="role_name"/>
+        <result property="roleKey" column="role_key"/>
+        <result property="roleSort" column="role_sort"/>
+        <result property="menuCheckStrictly" column="menu_check_strictly"/>
+        <result property="status" column="status"/>
+        <result property="delFlag" column="del_flag"/>
+        <result property="createBy" column="create_by"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateBy" column="update_by"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="remark" column="remark"/>
+        <result property="roleExpireTime" column="expire_time"/>
+    </resultMap>
+
+    <sql id="selectRoleVo">
+        select distinct r.role_id,
+                        r.role_name,
+                        r.role_key,
+                        r.role_sort,
+                        r.menu_check_strictly,
+                        r.status,
+                        r.del_flag,
+                        r.create_time,
+                        r.remark
+        from xy_role r
+                 left join xy_user_role sur on sur.role_id = r.role_id
+                 left join xy_user u on u.user_id = sur.user_id
+    </sql>
+
+    <select id="selectPageRoleList" resultMap="XyRoleResult">
+        <include refid="selectRoleVo"/>
+        ${ew.getCustomSqlSegment}
+    </select>
+
+    <select id="selectRoleList" resultMap="XyRoleResult">
+        <include refid="selectRoleVo"/>
+        ${ew.getCustomSqlSegment}
+    </select>
+
+    <select id="selectRolePermissionByUserId" parameterType="Long" resultMap="XyRoleResult">
+        select distinct r.role_id,
+                        r.role_name,
+                        r.role_key,
+                        r.role_sort,
+                        r.menu_check_strictly,
+                        r.status,
+                        r.del_flag,
+                        r.create_time,
+                        r.remark,
+                        sur.expire_time
+        from xy_role r
+                 left join xy_user_role sur on sur.role_id = r.role_id
+                 left join xy_user u on u.user_id = sur.user_id
+        WHERE r.del_flag = '0' and sur.user_id = #{userId} and ( sur.expire_time > NOW() or sur.expire_time is null )
+    </select>
+
+    <select id="selectRoleListByUserId" parameterType="Long" resultType="Long">
+        select r.role_id
+        from xy_role r
+                 left join xy_user_role sur on sur.role_id = r.role_id
+                 left join xy_user u on u.user_id = sur.user_id
+        where u.user_id = #{userId}
+    </select>
+
+    <select id="selectRolesByUserName" parameterType="String" resultMap="XyRoleResult">
+        <include refid="selectRoleVo"/>
+        WHERE r.del_flag = '0' and u.user_name = #{userName}
+    </select>
+
+</mapper>

@@ -1,0 +1,481 @@
+{
+  "groups": [
+    {
+      "name": "captcha",
+      "type": "com.yixin.xiaoyi.framework.config.properties.CaptchaProperties",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.CaptchaProperties"
+    },
+    {
+      "name": "mail",
+      "type": "com.yixin.xiaoyi.framework.config.properties.MailProperties",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.MailProperties"
+    },
+    {
+      "name": "redisson",
+      "type": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties"
+    },
+    {
+      "name": "redisson.cluster-servers-config",
+      "type": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties$ClusterServersConfig",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties",
+      "sourceMethod": "getClusterServersConfig()"
+    },
+    {
+      "name": "redisson.single-server-config",
+      "type": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties$SingleServerConfig",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties",
+      "sourceMethod": "getSingleServerConfig()"
+    },
+    {
+      "name": "security",
+      "type": "com.yixin.xiaoyi.framework.config.properties.SecurityProperties",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.SecurityProperties"
+    },
+    {
+      "name": "swagger",
+      "type": "com.yixin.xiaoyi.framework.config.properties.SwaggerProperties",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.SwaggerProperties"
+    },
+    {
+      "name": "swagger.components",
+      "type": "io.swagger.v3.oas.models.Components",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.SwaggerProperties",
+      "sourceMethod": "getComponents()"
+    },
+    {
+      "name": "swagger.external-docs",
+      "type": "io.swagger.v3.oas.models.ExternalDocumentation",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.SwaggerProperties",
+      "sourceMethod": "getExternalDocs()"
+    },
+    {
+      "name": "swagger.info",
+      "type": "com.yixin.xiaoyi.framework.config.properties.SwaggerProperties$InfoProperties",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.SwaggerProperties",
+      "sourceMethod": "getInfo()"
+    },
+    {
+      "name": "swagger.info.contact",
+      "type": "io.swagger.v3.oas.models.info.Contact",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.SwaggerProperties$InfoProperties",
+      "sourceMethod": "getContact()"
+    },
+    {
+      "name": "swagger.info.license",
+      "type": "io.swagger.v3.oas.models.info.License",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.SwaggerProperties$InfoProperties",
+      "sourceMethod": "getLicense()"
+    },
+    {
+      "name": "swagger.paths",
+      "type": "io.swagger.v3.oas.models.Paths",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.SwaggerProperties",
+      "sourceMethod": "getPaths()"
+    },
+    {
+      "name": "thread-pool",
+      "type": "com.yixin.xiaoyi.framework.config.properties.ThreadPoolProperties",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.ThreadPoolProperties"
+    },
+    {
+      "name": "xss",
+      "type": "com.yixin.xiaoyi.framework.config.properties.XssProperties",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.XssProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "captcha.category",
+      "type": "com.yixin.xiaoyi.common.enums.CaptchaCategory",
+      "description": "验证码类别",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.CaptchaProperties"
+    },
+    {
+      "name": "captcha.char-length",
+      "type": "java.lang.Integer",
+      "description": "字符验证码长度",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.CaptchaProperties"
+    },
+    {
+      "name": "captcha.number-length",
+      "type": "java.lang.Integer",
+      "description": "数字验证码位数",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.CaptchaProperties"
+    },
+    {
+      "name": "captcha.type",
+      "type": "com.yixin.xiaoyi.common.enums.CaptchaType",
+      "description": "验证码类型",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.CaptchaProperties"
+    },
+    {
+      "name": "mail.auth",
+      "type": "java.lang.Boolean",
+      "description": "是否需要用户名密码验证",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.MailProperties"
+    },
+    {
+      "name": "mail.connection-timeout",
+      "type": "java.lang.Long",
+      "description": "Socket连接超时值，单位毫秒，缺省值不超时",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.MailProperties"
+    },
+    {
+      "name": "mail.enabled",
+      "type": "java.lang.Boolean",
+      "description": "过滤开关",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.MailProperties"
+    },
+    {
+      "name": "mail.from",
+      "type": "java.lang.String",
+      "description": "发送方，遵循RFC-822标准",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.MailProperties"
+    },
+    {
+      "name": "mail.host",
+      "type": "java.lang.String",
+      "description": "SMTP服务器域名",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.MailProperties"
+    },
+    {
+      "name": "mail.pass",
+      "type": "java.lang.String",
+      "description": "密码",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.MailProperties"
+    },
+    {
+      "name": "mail.port",
+      "type": "java.lang.Integer",
+      "description": "SMTP服务端口",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.MailProperties"
+    },
+    {
+      "name": "mail.ssl-enable",
+      "type": "java.lang.Boolean",
+      "description": "使用 SSL安全连接",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.MailProperties"
+    },
+    {
+      "name": "mail.starttls-enable",
+      "type": "java.lang.Boolean",
+      "description": "使用 STARTTLS安全连接，STARTTLS是对纯文本通信协议的扩展。它将纯文本连接升级为加密连接（TLS或SSL）， 而不是使用一个单独的加密通信端口。",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.MailProperties"
+    },
+    {
+      "name": "mail.timeout",
+      "type": "java.lang.Long",
+      "description": "SMTP超时时长，单位毫秒，缺省值不超时",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.MailProperties"
+    },
+    {
+      "name": "mail.user",
+      "type": "java.lang.String",
+      "description": "用户名",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.MailProperties"
+    },
+    {
+      "name": "redisson.cluster-servers-config.client-name",
+      "type": "java.lang.String",
+      "description": "客户端名称",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.cluster-servers-config.idle-connection-timeout",
+      "type": "java.lang.Integer",
+      "description": "连接空闲超时，单位：毫秒",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.cluster-servers-config.master-connection-minimum-idle-size",
+      "type": "java.lang.Integer",
+      "description": "master最小空闲连接数",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.cluster-servers-config.master-connection-pool-size",
+      "type": "java.lang.Integer",
+      "description": "master连接池大小",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.cluster-servers-config.read-mode",
+      "type": "org.redisson.config.ReadMode",
+      "description": "读取模式",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.cluster-servers-config.slave-connection-minimum-idle-size",
+      "type": "java.lang.Integer",
+      "description": "slave最小空闲连接数",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.cluster-servers-config.slave-connection-pool-size",
+      "type": "java.lang.Integer",
+      "description": "slave连接池大小",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.cluster-servers-config.subscription-connection-pool-size",
+      "type": "java.lang.Integer",
+      "description": "发布和订阅连接池大小",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.cluster-servers-config.subscription-mode",
+      "type": "org.redisson.config.SubscriptionMode",
+      "description": "订阅模式",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.cluster-servers-config.timeout",
+      "type": "java.lang.Integer",
+      "description": "命令等待超时，单位：毫秒",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties$ClusterServersConfig"
+    },
+    {
+      "name": "redisson.key-prefix",
+      "type": "java.lang.String",
+      "description": "redis缓存key前缀",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties"
+    },
+    {
+      "name": "redisson.netty-threads",
+      "type": "java.lang.Integer",
+      "description": "Netty线程池数量,默认值 = 当前处理核数量 * 2",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties"
+    },
+    {
+      "name": "redisson.single-server-config.client-name",
+      "type": "java.lang.String",
+      "description": "客户端名称",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties$SingleServerConfig"
+    },
+    {
+      "name": "redisson.single-server-config.connection-minimum-idle-size",
+      "type": "java.lang.Integer",
+      "description": "最小空闲连接数",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties$SingleServerConfig"
+    },
+    {
+      "name": "redisson.single-server-config.connection-pool-size",
+      "type": "java.lang.Integer",
+      "description": "连接池大小",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties$SingleServerConfig"
+    },
+    {
+      "name": "redisson.single-server-config.idle-connection-timeout",
+      "type": "java.lang.Integer",
+      "description": "连接空闲超时，单位：毫秒",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties$SingleServerConfig"
+    },
+    {
+      "name": "redisson.single-server-config.subscription-connection-pool-size",
+      "type": "java.lang.Integer",
+      "description": "发布和订阅连接池大小",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties$SingleServerConfig"
+    },
+    {
+      "name": "redisson.single-server-config.timeout",
+      "type": "java.lang.Integer",
+      "description": "命令等待超时，单位：毫秒",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties$SingleServerConfig"
+    },
+    {
+      "name": "redisson.threads",
+      "type": "java.lang.Integer",
+      "description": "线程池数量,默认值 = 当前处理核数量 * 2",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.RedissonProperties"
+    },
+    {
+      "name": "security.excludes",
+      "type": "java.lang.String[]",
+      "description": "排除路径",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.SecurityProperties"
+    },
+    {
+      "name": "swagger.components.callbacks",
+      "type": "java.util.Map<java.lang.String,io.swagger.v3.oas.models.callbacks.Callback>",
+      "sourceType": "io.swagger.v3.oas.models.Components"
+    },
+    {
+      "name": "swagger.components.examples",
+      "type": "java.util.Map<java.lang.String,io.swagger.v3.oas.models.examples.Example>",
+      "sourceType": "io.swagger.v3.oas.models.Components"
+    },
+    {
+      "name": "swagger.components.extensions",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "io.swagger.v3.oas.models.Components"
+    },
+    {
+      "name": "swagger.components.headers",
+      "type": "java.util.Map<java.lang.String,io.swagger.v3.oas.models.headers.Header>",
+      "sourceType": "io.swagger.v3.oas.models.Components"
+    },
+    {
+      "name": "swagger.components.links",
+      "type": "java.util.Map<java.lang.String,io.swagger.v3.oas.models.links.Link>",
+      "sourceType": "io.swagger.v3.oas.models.Components"
+    },
+    {
+      "name": "swagger.components.parameters",
+      "type": "java.util.Map<java.lang.String,io.swagger.v3.oas.models.parameters.Parameter>",
+      "sourceType": "io.swagger.v3.oas.models.Components"
+    },
+    {
+      "name": "swagger.components.path-items",
+      "type": "java.util.Map<java.lang.String,io.swagger.v3.oas.models.PathItem>",
+      "sourceType": "io.swagger.v3.oas.models.Components"
+    },
+    {
+      "name": "swagger.components.request-bodies",
+      "type": "java.util.Map<java.lang.String,io.swagger.v3.oas.models.parameters.RequestBody>",
+      "sourceType": "io.swagger.v3.oas.models.Components"
+    },
+    {
+      "name": "swagger.components.responses",
+      "type": "java.util.Map<java.lang.String,io.swagger.v3.oas.models.responses.ApiResponse>",
+      "sourceType": "io.swagger.v3.oas.models.Components"
+    },
+    {
+      "name": "swagger.components.schemas",
+      "type": "java.util.Map<java.lang.String,io.swagger.v3.oas.models.media.Schema>",
+      "sourceType": "io.swagger.v3.oas.models.Components"
+    },
+    {
+      "name": "swagger.components.security-schemes",
+      "type": "java.util.Map<java.lang.String,io.swagger.v3.oas.models.security.SecurityScheme>",
+      "sourceType": "io.swagger.v3.oas.models.Components"
+    },
+    {
+      "name": "swagger.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否开启 openApi 文档",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.SwaggerProperties"
+    },
+    {
+      "name": "swagger.external-docs.description",
+      "type": "java.lang.String",
+      "sourceType": "io.swagger.v3.oas.models.ExternalDocumentation"
+    },
+    {
+      "name": "swagger.external-docs.extensions",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "io.swagger.v3.oas.models.ExternalDocumentation"
+    },
+    {
+      "name": "swagger.external-docs.url",
+      "type": "java.lang.String",
+      "sourceType": "io.swagger.v3.oas.models.ExternalDocumentation"
+    },
+    {
+      "name": "swagger.info.contact.email",
+      "type": "java.lang.String",
+      "sourceType": "io.swagger.v3.oas.models.info.Contact"
+    },
+    {
+      "name": "swagger.info.contact.extensions",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "io.swagger.v3.oas.models.info.Contact"
+    },
+    {
+      "name": "swagger.info.contact.name",
+      "type": "java.lang.String",
+      "sourceType": "io.swagger.v3.oas.models.info.Contact"
+    },
+    {
+      "name": "swagger.info.contact.url",
+      "type": "java.lang.String",
+      "sourceType": "io.swagger.v3.oas.models.info.Contact"
+    },
+    {
+      "name": "swagger.info.description",
+      "type": "java.lang.String",
+      "description": "描述",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.SwaggerProperties$InfoProperties"
+    },
+    {
+      "name": "swagger.info.license.extensions",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "io.swagger.v3.oas.models.info.License"
+    },
+    {
+      "name": "swagger.info.license.identifier",
+      "type": "java.lang.String",
+      "sourceType": "io.swagger.v3.oas.models.info.License"
+    },
+    {
+      "name": "swagger.info.license.name",
+      "type": "java.lang.String",
+      "sourceType": "io.swagger.v3.oas.models.info.License"
+    },
+    {
+      "name": "swagger.info.license.url",
+      "type": "java.lang.String",
+      "sourceType": "io.swagger.v3.oas.models.info.License"
+    },
+    {
+      "name": "swagger.info.title",
+      "type": "java.lang.String",
+      "description": "标题",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.SwaggerProperties$InfoProperties"
+    },
+    {
+      "name": "swagger.info.version",
+      "type": "java.lang.String",
+      "description": "版本",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.SwaggerProperties$InfoProperties"
+    },
+    {
+      "name": "swagger.paths.extensions",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "io.swagger.v3.oas.models.Paths"
+    },
+    {
+      "name": "swagger.tags",
+      "type": "java.util.List<io.swagger.v3.oas.models.tags.Tag>",
+      "description": "标签",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.SwaggerProperties"
+    },
+    {
+      "name": "thread-pool.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否开启线程池",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.ThreadPoolProperties"
+    },
+    {
+      "name": "thread-pool.keep-alive-seconds",
+      "type": "java.lang.Integer",
+      "description": "线程池维护线程所允许的空闲时间",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.ThreadPoolProperties"
+    },
+    {
+      "name": "thread-pool.queue-capacity",
+      "type": "java.lang.Integer",
+      "description": "队列最大长度",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.ThreadPoolProperties"
+    },
+    {
+      "name": "xss.enabled",
+      "type": "java.lang.String",
+      "description": "过滤开关",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.XssProperties"
+    },
+    {
+      "name": "xss.excludes",
+      "type": "java.lang.String",
+      "description": "排除链接（多个用逗号分隔）",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.XssProperties"
+    },
+    {
+      "name": "xss.url-patterns",
+      "type": "java.lang.String",
+      "description": "匹配链接",
+      "sourceType": "com.yixin.xiaoyi.framework.config.properties.XssProperties"
+    }
+  ],
+  "hints": []
+}

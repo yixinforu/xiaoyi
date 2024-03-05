@@ -1,0 +1,1 @@
+{"doc":" 由于新增数据属于动态，暂时没开发\"发布计划“功能，故先手动输入\n @author: huangzexin\n @date: 2023/11/10 13:11\n","fields":[{"name":"newTotalCount","doc":" 新增总数\n"},{"name":"newCampusCount","doc":" 新增校招数\n"},{"name":"newPracticeCount","doc":" 新增实习数\n"},{"name":"showUpdateTime","doc":" 展示更新时间\n"}],"enumConstants":[],"methods":[],"constructors":[]}

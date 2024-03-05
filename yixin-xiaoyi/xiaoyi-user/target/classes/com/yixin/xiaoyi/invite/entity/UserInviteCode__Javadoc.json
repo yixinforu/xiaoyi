@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/9/24 11:06\n","fields":[{"name":"userId","doc":" 用户编号\n"},{"name":"inviteCode","doc":" 邀请码\n"}],"enumConstants":[],"methods":[],"constructors":[]}

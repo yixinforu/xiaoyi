@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for yixin-xiaoyi" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-configuration-processor/2.7.6/spring-boot-configuration-processor-2.7.6.jar" />
+        </processorPath>
+        <module name="xiaoyi-recruit" />
+        <module name="xiaoyi-framework" />
+        <module name="xiaoyi-job" />
+        <module name="xiaoyi-base" />
+        <module name="xiaoyi-server" />
+        <module name="xiaoyi-user" />
+        <module name="xiaoyi-common" />
+        <module name="xiaoyi-system" />
+        <module name="xiaoyi-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xiaoyi-base" target="1.8" />
+      <module name="xiaoyi-client" target="1.8" />
+      <module name="xiaoyi-common" target="1.8" />
+      <module name="xiaoyi-framework" target="1.8" />
+      <module name="xiaoyi-job" target="1.8" />
+      <module name="xiaoyi-recruit" target="1.8" />
+      <module name="xiaoyi-server" target="1.8" />
+      <module name="xiaoyi-system" target="1.8" />
+      <module name="xiaoyi-user" target="1.8" />
+      <module name="yixin-xiaoyi" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

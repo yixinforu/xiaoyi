@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yixin.xiaoyi.recruit.dao.mapper.NewCountMapper">
+
+    <resultMap type="NewCount" id="NewCountResult">
+        <id property="id" column="id"/>
+        <result property="newTotalCount" column="new_total_count"/>
+        <result property="newCampusCount" column="new_campus_count"/>
+        <result property="newPracticeCount" column="new_practice_count"/>
+        <result property="showUpdateTime" column="show_update_time"/>
+    </resultMap>
+
+
+</mapper>

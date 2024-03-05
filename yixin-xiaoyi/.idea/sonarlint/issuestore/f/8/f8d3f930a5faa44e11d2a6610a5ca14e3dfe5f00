@@ -1,0 +1,25 @@
+
+b
+java:S1192ƒ"KDefine a constant instead of duplicating this literal "yyyy-MM-dd" 4 times.(´‡¾µ
+C
+java:S5411a"(Use a primitive boolean expression here.(¸¬ÜÏûÿÿÿÿ
+b
+java:S2184™"FCast one of the operands of this multiplication operation to a "long".(™Ü©„şÿÿÿÿ
+m
+java:S3252a"RUse static access with "org.apache.commons.lang3.time.DateUtils" for "addSeconds".(¸¬ÜÏûÿÿÿÿ
+E
+java:S2201m"/The return value of "orElseThrow" must be used.(ŒÃƒò
+j
+java:S3252z"OUse static access with "org.apache.commons.lang3.time.DateUtils" for "addDays".(šÊö¢ıÿÿÿÿ
+f
+java:S3252Í"OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isNotBlank".(èÂ‡á
+a
+java:S3252£"JUse static access with "org.apache.commons.lang3.StringUtils" for "EMPTY".(„›ÎÕ
+i
+java:S3252ß"RUse static access with "org.apache.commons.lang3.time.DateUtils" for "addMinutes".(¢¸‡õ
+]
+java:S1128"GRemove this unused import 'com.yixin.xiaoyi.common.helper.LoginHelper'.(¡¾åè
+c
+java:S1128"HRemove this unused import 'com.yixin.xiaoyi.user.model.dto.UserInfoDTO'.(˜ÂÅ°øÿÿÿÿ
+e
+java:S1128-"ORemove this unused import 'org.springframework.beans.factory.annotation.Value'.(ìø›

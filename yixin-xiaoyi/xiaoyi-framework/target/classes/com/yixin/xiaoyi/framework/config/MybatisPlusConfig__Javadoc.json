@@ -1,0 +1,1 @@
+{"doc":" mybatis-plus配置类(下方注释有插件介绍)\n\n @author admin\n","fields":[],"enumConstants":[],"methods":[{"name":"paginationInnerInterceptor","paramTypes":[],"doc":" 分页插件，自动识别数据库类型\n"},{"name":"optimisticLockerInnerInterceptor","paramTypes":[],"doc":" 乐观锁插件\n"},{"name":"metaObjectHandler","paramTypes":[],"doc":" 元对象字段填充控制器\n"}],"constructors":[]}

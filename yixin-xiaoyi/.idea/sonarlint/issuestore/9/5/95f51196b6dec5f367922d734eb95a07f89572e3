@@ -1,0 +1,11 @@
+
+7
+java:S1170"!Make this final field static too.(„‹Ø²
+œ
+java:S1186B"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(İòËíøÿÿÿÿ
+m
+java:S3252%"RUse static access with "cn.hutool.extra.spring.SpringUtil" for "getActiveProfile".(¾ÊÇıÿÿÿÿÿ
+m
+java:S3252H"RUse static access with "cn.hutool.extra.spring.SpringUtil" for "getActiveProfile".(¾ÊÇıÿÿÿÿÿ
+o
+java:S3252Y"YUse static access with "org.apache.commons.lang3.StringUtils" for "startsWithIgnoreCase".(ÛéÍ

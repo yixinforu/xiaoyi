@@ -1,0 +1,1 @@
+{"doc":" @author: huangzexin\n @date: 2023/7/9 23:23\n","fields":[{"name":"startDate","doc":" 开始时间 yyyy-MM-dd\n"},{"name":"endDate","doc":" 结束时间  yyyy-MM-dd\n"}],"enumConstants":[],"methods":[],"constructors":[]}
